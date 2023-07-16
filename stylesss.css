@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+header{
+    width: 100%;
+    background:#ffc5b7;
+    height: 70px ;
+}
+
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    /* background: red; */
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /* background: blue; */
+    float:left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo p a{
+     color: #fff;
+     font-size: 40px;
+     text-decoration: none;
+    
+     font-family: daydream;
+     
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    /* background: olive; */
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+nav ul li a{
+    color:#fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+    letter-spacing: 1px;
+    font-family: daydream;
+}
+
+nav ul li a:hover{
+    color:black
+}
+
+@font-face {
+    font-family: daydream;
+    src: url(Calistoga-Regular.ttf);
+}
+
+.icono-instagram {
+    color: #000;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .icono-instagram:hover {
+    color: #430593;
+  }
+
+.main{
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+@font-face {
+    font-family: frase;
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+
+.margen-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    max-width: 800px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+  }
+
+.margen-container h1{
+    font-family: frase;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.margen-container h1:hover{
+    color: #ffc5b7;
+}
+
+
+#primeraletramayus::first-letter{
+    font-size: 50px;
+}
+
+#Inicio h2{
+    margin-left: 15px;
+    font-family: daydream;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#Inicio p{
+    margin-left: 15px;
+    font-family: frase;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+#proyecto1 img {
+   width: 50%;
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+   float:left
+}
+
+#Proyectos h2{
+    margin-left: 15px;
+    font-family: daydream;
+    font-size: 30px;
+}
+
+#comprar1 {
+    margin-top: 20px;
+}
+
+#proyecto1 h3{
+   font-family: frase;
+}
+
+#proyecto1 p{
+    margin-top: 5px;
+ }
+
+ .separador{
+    width: 100%;
+    background:#fff;
+    height: 600px ;
+}
+ 
+
+ #proyecto2 img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left
+ }
+
+ #comprar2 {
+    margin-top: 20px;
+}
+
+ #proyecto2 h3{
+    font-family: frase;
+ }
+
+ #comprar3 {
+    margin-top: 20px;
+}
+
+ #proyecto3 img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left
+ }
+
+ #proyecto3 h3{
+    font-family: frase;
+ }
+
+ #proyecto4 img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left
+ }
+
+ #proyecto4 h3{
+    font-family: frase;
+ }
+
+ #comprar4 {
+    margin-top: 20px;
+}
+
+ #proyecto4 h3{
+    font-family: frase;
+ }
+
+ #proyecto5 img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left
+ }
+
+
+
+ #comprar5 {
+    margin-top: 20px;
+}
+
+ #proyecto5 h3{
+    font-family: frase;
+ }
+
+ #proyecto6 img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float:left
+ }
+
+ #comprar6 {
+    margin-top: 20px;
+}
+
+#proyecto6 h3{
+    font-family: frase;
+ }
+ .redes-sociales {
+    text-align: center;
+  }
+
+  .redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .redes-sociales a:hover {
+    color: #ffc5b7;
+  }
+
+
+ #margencitosfooter{
+    width: 80%;
+    height: 310px;
+    background: #ffc5b7;
+    margin: auto;
+    border-left: 130px solid #ffc5b7;
+    border-right: 130px solid #ffc5b7;
+ }
+
+
+
+
+ #podescontactarme{
+    font-family: daydream;
+    margin-bottom: 20px;
+ }
+
+
+ input[type="button"] {
+    background: #ffc5b7;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: daydream;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background: #000;
+    color: #ffc5b7;
+  }
+
+  em{
+    color: #ffc5b7;
+    font-weight: bold;
+  }
+
+  em:hover{
+    color: black;
+  }
+ 
+  
+ 
+  
+
+ 
+
+
+
+
+
+
